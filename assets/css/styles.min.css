@@ -896,3 +896,9 @@ a.animated-button.victoria-one:after {
 .bs-icon.bs-icon-circle {
     border-radius: 50%
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
