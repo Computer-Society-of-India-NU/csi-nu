@@ -798,7 +798,6 @@ a.animated-button.victoria-one:after {
         height: 50px !important
     }
 }
-
 .navbar--apple .nav-link {
     color: #fff !important;
     font-size: 13px
@@ -814,6 +813,9 @@ a.animated-button.victoria-one:after {
     line-height: 1;
     border: 0;
     border-radius: 0
+}
+.nav-item{
+    margin: 16px;
 }
 
 .navbar--apple .navbar-toggler-icon {
@@ -901,4 +903,7 @@ a.animated-button.victoria-one:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.madeby:hover{
+    color: rgb(46,49,146); 
 }
