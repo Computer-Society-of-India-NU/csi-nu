@@ -798,6 +798,7 @@ a.animated-button.victoria-one:after {
         height: 50px !important
     }
 }
+
 .navbar--apple .nav-link {
     color: #fff !important;
     font-size: 13px
@@ -814,7 +815,8 @@ a.animated-button.victoria-one:after {
     border: 0;
     border-radius: 0
 }
-.nav-item{
+
+.nav-item {
     margin: 16px;
 }
 
@@ -904,6 +906,32 @@ a.animated-button.victoria-one:after {
     padding: 0;
     box-sizing: border-box;
 }
-.madeby:hover{
-    color: rgb(46,49,146); 
+
+.madeby:hover {
+    color: rgb(46, 49, 146);
+}
+
+@media only screen and (max-width: 600px) {
+    .home-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video1,.video2,.video3{
+        height: 230px;
+        width: 330px;
+    }
+}
+
+.para-events {
+    padding-right: 15px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Albert Sans', sans-serif;
+    text-align: justify;
+    line-height: 23px;
+    word-wrap: normal;
+    letter-spacing: 0.4px;
+    color: rgb(101, 100, 100);
 }
