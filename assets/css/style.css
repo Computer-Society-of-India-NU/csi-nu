@@ -24,6 +24,21 @@ main {
 	margin-bottom: 1em
 }
 
+/* .back-to-top {
+	display: none;
+} */
+
+/* .back-up {
+	display: block;
+} */
+.card-social-imagia a i {
+	color: #000;
+}
+
+.card-social-imagia a i:hover {
+	color: #036ead;
+}
+
 #footer {
 	background: var(--dark)
 }
@@ -1421,7 +1436,7 @@ a:hover, a:focus {
 	}
 
 	.grid__item {
-		padding: 0 4.5vw;
+		padding: 0 2.5vw;
 	}
 
 	.grid__item:first-child {
